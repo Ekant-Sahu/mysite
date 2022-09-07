@@ -1,0 +1,302 @@
+body 
+{
+    margin: 0;
+    padding: 1px 0;
+    background-color: #CDF0EA;
+    --nav-height: 200px;
+    padding-top: var(--nav-height);
+    
+}
+
+
+
+
+
+/*nav starts here
+.container
+{
+    width: 60%;
+    height: 100px;
+    margin: 10px auto;
+    padding: 10px;
+}
+*/
+
+
+.nav
+{
+    width: 100%;
+    height: var(--nav-height);
+    position: fixed;
+    top: 0;
+    box-shadow: none;
+    background-color: rgb(231, 231, 231);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s;
+    justify-content: space-between;
+}
+
+.nav__link
+{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+.nav--hidden
+{
+    box-shadow: none;
+    transform: translateY(calc(-1*var(--nav-height)));
+}
+
+.nav__link:hover
+{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: black;
+    transition: 0.4s;
+}
+.nav_l
+{
+    padding-right: 150px;
+}
+
+
+/*dsjkfaskldfgasdfgsjdafghsadjfghsajlf*/
+.nav--color
+{
+    background-color: rgb(219, 243, 249);
+    background-color: rgb(213, 244, 254);
+}
+
+
+.nav .ekant
+{
+    margin-left: 150px;
+}
+
+/*intro starts here*/
+
+
+.base
+{
+    background-color: aliceblue;
+    height: auto;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.content
+{
+
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin: 80px;
+    /*border-bottom: dotted #aaa0a0 3px;*/
+
+}
+#c
+{
+    padding-bottom: 100px;
+    width: 55%;
+}
+
+
+.t
+{
+    padding-bottom: 500px;
+}
+
+#intro
+{
+    height: 100%;
+    width: 100%;
+    background-image: url("b.png");
+    background-color: rgb(231, 231, 231);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 400px;
+    box-shadow: none;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border: none;
+    
+    
+}
+#intro h1
+{
+    font-family: 'Great Vibes', cursive;
+    font-size: 500%!important;
+    
+}
+#intro h2{
+    font-family: 'Itim', cursive;
+    
+}
+
+.ekant
+{
+    padding: 0px;
+    
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+}
+
+.head--hidden
+{
+    transform: translateY(-100px);
+    box-shadow: none;
+}
+
+
+#about
+{
+    padding-bottom: 50px;
+    /*border-bottom: dotted #a7c5bd 2px;*/
+}
+
+
+#about .ekant
+{
+    height: 400px;
+    width: 400px;
+    padding: 60px;
+    border-radius: 400px;
+}
+
+
+
+
+
+#what .ekant
+{
+    height: 250px;
+    width: 250px;
+}
+
+.work
+{
+    height: 120px;
+    width: 120px;
+    border-radius: 200px;
+    margin-top: 54px;
+}
+
+.design
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+}
+
+
+
+
+.design p
+{
+    margin-top: 70px;
+}
+
+.text
+{
+    align-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.btn{
+    height: 69px;
+    width: 69%;
+}
+
+.foot
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    background-color: rgb(219, 243, 249);
+    padding: 50px;
+}
+
+.link
+{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 0em;
+    font-size: 40px;
+    word-spacing: 100px;
+    padding: 10px;
+}
+.link a
+{
+    text-decoration: none;
+    
+}
+.link a:hover
+{
+    transform: 1.1;
+    text-decoration: underline;
+    color: #9c9292;
+}
+
+.end
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+p
+{
+    font-size: 50px;
+    font-family: 'Itim', cursive;
+}
+
+#btn
+{
+    height: 100px;
+}
+
+
+h1
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 350%!important;
+
+}
+h2
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 300%!important;
+}
+
+.line
+{
+    color: #9c9292;
+}
+
+.goodbye
+{
+    padding-top: 60px;
+}
